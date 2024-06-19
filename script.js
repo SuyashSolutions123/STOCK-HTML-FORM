@@ -207,7 +207,7 @@
     };
 
     console.log('Data Object:', dataObject);
-    var url = "https://script.google.com/macros/s/AKfycbxQS9Bx6qBvwLDfjVIUE3ry3w1tsb9I-zom_Rs_TDa_vlbWQcD0BbrqZOxGxEpvqE6UkA/exec";
+    var url = "https://script.google.com/macros/s/AKfycbzJkh_sGT3OapIXpaMAW5H0V0WCVZ13VcpNIMGSXCQCkJxmepCGPMkkNzrX89h05qDTzw/exec";
     // Posting data to the server
     fetch(url, {
 	redirect:"follow",
