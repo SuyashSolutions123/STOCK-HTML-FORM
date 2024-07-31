@@ -1,4 +1,29 @@
- document.addEventListener('DOMContentLoaded', () => {
+// refresh page script code
+document.addEventListener('DOMContentLoaded', () => {
+    let startY = 0;
+    const refreshIcon = document.createElement('div');
+    refreshIcon.classList.add('refresh-icon');
+    refreshIcon.innerHTML = '&#x21bb;';
+    document.body.appendChild(refreshIcon);
+
+    window.addEventListener('touchstart', (e) => {
+        if (window.scrollY === 0) startY = e.touches[0].clientY;
+    });
+
+    window.addEventListener('touchmove', (e) => {
+        if (window.scrollY === 0 && e.touches[0].clientY > startY + 50) {
+            refreshIcon.style.display = 'block';
+        }
+    });
+
+    window.addEventListener('touchend', () => {
+        if (refreshIcon.style.display === 'block') location.reload();
+        refreshIcon.style.display = 'none';
+    });
+});
+
+// page script
+document.addEventListener('DOMContentLoaded', () => {
             const today = new Date().toISOString().split('T')[0];
             document.getElementById('date').value = today;
 
