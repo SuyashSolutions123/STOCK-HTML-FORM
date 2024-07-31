@@ -80,4 +80,14 @@
             overflow-y: auto;
              border-radius: 10px;
             padding-bottom: 30px; /* Space for submit button */
+
+        .refresh-icon {
+        display: none;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 24px;
+        z-index: 10;
+       }
         }
