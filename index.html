@@ -45,8 +45,9 @@
             <h3>ITEM VISE ENTRY</h3>
             <div class="form-group">
                 <label for="known-item">SELECT ITEM :-</label>
-                <select style="background-color:#f0f0f0;" id="known-item" name="knownItem" onchange="document.getElementById('other-item').style.display = this.value === 'other' ? 'block' : 'none'">
-                     <option label="Select Item Name"></option>
+                <input style="background-color:#f0f0f0;" id="known-item" name="knownItem" list="item-list" autocomplete="off"onchange="document.getElementById('other-item').style.display = this.value === 'other' ? 'block' : 'none'">
+                <datalist id="item-list">    
+                <option label="Select Item Name"></option>
                      <option value="टेपर (Nos.)">टेपर (Nos.)</option>
                      <option value="खराब टेपर (Nos.)">खराब टेपर (Nos.)</option>
                     <option value="ग्लास ट्युब (in Kg)">ग्लास ट्युब (in Kg)</option>
@@ -221,8 +222,8 @@
                     <option value="6 mm copper rod (in Kg)">6 mm copper rod (in Kg)</option>
                   //  <option value=""></option>
                     <option value="other">Other than above</option>
-                    
-                </select>
+                </datalist> 
+                //</select>
                 <input  style="background-color:#f0f0f0;display:none;" type="text" id="other-item" name="otherItem" style="display:none;" placeholder="Enter Item Name">
             </div>
             <div class="form-group">
