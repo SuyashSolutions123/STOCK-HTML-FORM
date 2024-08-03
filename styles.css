@@ -27,7 +27,7 @@
             display: block;
             /* font-weight: bold; */
         }
-        select, input[type="text"], input[type="date"], button {
+        select, input[type="text"], input[type="date"],input[name="knownItem"], button {
             width: 100%;
             padding: 8px;
             margin-top: 5px;
