@@ -98,4 +98,22 @@
         font-size: 24px;
         z-index: 10;
        }
-         
+        #suggestions {
+            border: 1px solid #ccc;
+            max-height: 150px;
+            overflow-y: auto;
+            display: none;
+            position: absolute;
+            background: white;
+            z-index: 1000;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .suggestion-item {
+            padding: 8px;
+            cursor: pointer;
+        }
+        .suggestion-item:hover {
+            background: #f0f0f0;
+        } 
