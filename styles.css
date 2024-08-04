@@ -35,14 +35,7 @@
             border-radius: 10px;
             box-sizing: border-box;
         }
-        input{
-              width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            border: 1px solid #FFFFFF;
-            border-radius: 10px;
-            box-sizing: border-box;
-        }
+       
         .field-group {
             display: flex;
             gap: 10px;
