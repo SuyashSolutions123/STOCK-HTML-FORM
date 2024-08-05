@@ -284,10 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const addKnownItem = () => {
-             const itemName = document.getElementById('known-item').addEventListener('input', () => {
-            showSuggestions(document.getElementById('known-item'), document.getElementById('suggestions'), itemNames);
-        });
-    		
+             const itemName = document.getElementById('').value;
 		console.log(itemName);  
             	const itemValue = document.getElementById('known-item-value').value;
 		console.log(itemValue);
