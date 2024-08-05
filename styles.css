@@ -36,7 +36,7 @@
             border-radius: 10px;
             box-sizing: border-box;
         }
-       input[id='item']{
+       input[id='known-item']{
            background-color: #f0f0f0;
             width: 100%;
             padding: 8px;
