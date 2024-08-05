@@ -284,13 +284,11 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const addKnownItem = () => {
-                 document.getElementById('known-item').addEventListener('input', () => {
-            showSuggestions(document.getElementById('known-item'), document.getElementById(''), itemNames);
+             const itemName = document.getElementById('known-item').addEventListener('input', () => {
+            showSuggestions(document.getElementById('known-item'), document.getElementById('suggestions'), itemNames);
         });
-    		const itemSelect = document.getElementById('known-item');
-    		const itemName = itemSelect.value; // Always use the value from the input field
-    		console.log(itemName); // Process the value as needed
-		  
+    		
+		console.log(itemName);  
             	const itemValue = document.getElementById('known-item-value').value;
 		console.log(itemValue);
             if (!itemName || !itemValue) {
