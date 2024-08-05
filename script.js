@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const addKnownItem = () => {
-             const itemName = document.getElementById('').value;
+             const itemName = document.getElementById('known-item').value;
 		console.log(itemName);  
             	const itemValue = document.getElementById('known-item-value').value;
 		console.log(itemValue);
