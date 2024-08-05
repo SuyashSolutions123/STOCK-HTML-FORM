@@ -284,11 +284,11 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const addKnownItem = () => {
-            document.getElementById('add-button').addEventListener('click', () => {
+            
     		const itemSelect = document.getElementById('known-item');
     		const itemName = itemSelect.value; // Always use the value from the input field
     		console.log(itemName); // Process the value as needed
-		    });
+		  
             	const itemValue = document.getElementById('known-item-value').value;
 		console.log(itemValue);
             if (!itemName || !itemValue) {
