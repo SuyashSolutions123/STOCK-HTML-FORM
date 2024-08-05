@@ -284,10 +284,11 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const addKnownItem = () => {
-            const itemSelect = document.getElementById('known-item');
-            const itemName = itemSelect.value === 'other' ? document.getElementById('other-item').value : itemSelect.value;
-		console.log(itemName);
-            const itemValue = document.getElementById('known-item-value').value;
+            document.getElementById('add-button').addEventListener('click', () => {
+    		const itemSelect = document.getElementById('known-item');
+    		const itemName = itemSelect.value; // Always use the value from the input field
+    		console.log(itemName); // Process the value as needed
+            	const itemValue = document.getElementById('known-item-value').value;
 		console.log(itemValue);
             if (!itemName || !itemValue) {
                 alert('Item name and value are required.');
