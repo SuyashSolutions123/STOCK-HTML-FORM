@@ -461,6 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch((error) => {
             alert('Failed to submit the form.');
+		console.error('Stack Trace:', error.stack); // Log the stack trace
             console.error('Error:', error);
         });
 };
