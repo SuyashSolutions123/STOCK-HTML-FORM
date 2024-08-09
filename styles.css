@@ -100,7 +100,7 @@
         font-size: 24px;
         z-index: 10;
        }
-        #suggestions {
+        .suggestions {
             border: 1px solid #ccc;
             max-height: 150px;
              overflow-y: auto;
