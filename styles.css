@@ -101,16 +101,15 @@
         z-index: 10;
        }
         .suggestions {
-            border: 1px solid #ccc;
-            max-height: 150px;
-             overflow-y: auto;
-            display: none;
             position: absolute;
-            background: white;
-            z-index: 1;
             width: 100%;
-            box-sizing: border-box;
+            border: 1px solid #000000;
+            background-color: #ffffff;
             border-radius: 10px;
+            max-height: 150px;
+            overflow-y: auto;
+            z-index: 1;
+            display: none;
         }
         .suggestion-item {
             padding: 8px;
