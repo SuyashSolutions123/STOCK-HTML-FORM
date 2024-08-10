@@ -292,7 +292,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('Item name and value are required.');
                 return;
             }
-
+	     // Clear the fields after 2 seconds if the button was clicked
+        setTimeout(() => {
+        document.getElementById('known-item').value = '';
+        document.getElementById('known-item-value').value = '';
+        }, 2000);
             const enteredItemDiv = document.createElement('div');
             enteredItemDiv.className = 'entered-item';
             enteredItemDiv.dataset.type = 'known';
