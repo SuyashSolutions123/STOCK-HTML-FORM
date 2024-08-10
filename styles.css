@@ -76,17 +76,17 @@
         .action-buttons {
             position: absolute;
             right: 10px;
-            
             display: flex;
             gap: 5px;
         }
-         .entered-item.action-buttons{
-          padding-bottom: 30px;
+         .entered-item .action-buttons{
+          bottom:0;
         }
         .action-buttons button {
             padding: 5px;
             font-size: 0.8em;
             border-radius: 10px;
+            opacity:75%;
         }
         .form-container {
             max-height: 90vh;
