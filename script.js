@@ -460,6 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('combined-form').reset();
                 document.getElementById('date').value = new Date().toISOString().split('T')[0];
                 document.getElementById('entered-items-list').innerHTML = '';
+		location.reload();
             } else {
                 throw new Error('Failed to submit form.');
             }
