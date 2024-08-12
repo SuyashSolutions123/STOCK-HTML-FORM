@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
        		 setTimeout(() => {
        		 document.getElementById('known-item').value = '';
         	 document.getElementById('known-item-value').value = '';
-        	 }, 2000);
+        	 }, 1000);
 		
             const enteredItemDiv = document.createElement('div');
             enteredItemDiv.className = 'entered-item';
