@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     console.log('Data Object:', dataObject);
-    var url = "https://script.google.com/macros/s/AKfycbwcyhOkNCzfnZUCSMIsFIvjZHpk6UcNDlZonflhREOiG51bFnxLhMXgTZLwvLCV_CAUhw/exec";
+    var url = "https://script.google.com/macros/s/AKfycbxino_m0Ov-6sybfrdq21A76G7mTDvYhpMD_dpJp6vRxG1ZHUNivtWQijb8Yv1P36qZ/exec";
     // Posting data to the server
     fetch(url, {
 	redirect:"follow",
