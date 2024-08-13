@@ -107,7 +107,7 @@
             position: absolute;
             width: 100%;
             border: 1px solid #000000;
-            background-color: #ede8e8;
+            background-color: #f0f0f0;
             border-radius: 10px;
             max-height: 150px;
             overflow-y: auto;
@@ -119,5 +119,5 @@
             cursor: pointer;
         }
         .suggestion-item:hover {
-            background: #ede8e8;
+            background: #f0f0f0;
         } 
