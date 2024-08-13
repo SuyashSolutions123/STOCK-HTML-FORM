@@ -117,6 +117,7 @@
         .suggestion-item {
             padding: 8px;
             cursor: pointer;
+            background-color: #f0f0f0;
         }
         .suggestion-item:hover {
             background: #f0f0f0;
