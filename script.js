@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const today = new Date().toISOString().split('T')[0];
             document.getElementById('date').value = today;
 
-            document.getElementById('add-field-btn').addEventListener('click', addField);
+           // document.getElementById('add-field-btn').addEventListener('click', addField);
             document.getElementById('add-entered-item-btn').addEventListener('click', addEnteredItem);
             document.getElementById('add-known-item-btn').addEventListener('click', addKnownItem);
         });
